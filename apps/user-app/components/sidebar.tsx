@@ -1,7 +1,7 @@
 "use client";
 import { usePathname, useRouter } from "next/navigation";
 
-export const sidebar = ({
+export const Sidebar = ({
   href,
   title,
   icon,

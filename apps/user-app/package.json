@@ -9,7 +9,7 @@
     "lint": "eslint . --max-warnings 0"
   },
   "dependencies": {
-    "@repo/store": "*",
+    "@heroicons/react": "^2.2.0",
     "@repo/ui": "*",
     "@types/bcrypt": "^5.0.2",
     "bcrypt": "^5.1.1",
@@ -22,6 +22,7 @@
     "@next/eslint-plugin-next": "^14.1.1",
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
+    "@repo/store": "*",
     "@types/eslint": "^8.56.5",
     "@types/node": "^20.11.24",
     "@types/react": "^18.2.61",
