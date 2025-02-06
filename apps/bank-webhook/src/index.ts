@@ -6,6 +6,7 @@ const app = express();
 app.post("/hdfcWebhook", async (req, res) => {
   //TODO: Add zod validation here?
   // bank should ideally send a secret so as to know the transaction is legit
+  // add a check that if only the transaction is processing it should be change to Success (so that repeated req do not update the database)
   const paymentInformation = ({
     token: String,
     userId: String,
